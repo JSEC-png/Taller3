@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de usuario</title>
+</head>
+<body>
+    <form>
+        <h1><b>Rellena tu CV</b></h1>
+        Nombre <br>
+        <input type = 'text' nombre = "Nombre" value =''></input> <br>
+        Apellidos <br>
+        <input type = 'text' Apellidos = "Apellidos" value ='' size= "75"></input> <br>
+        Contraseña <br>
+        <input type = 'password' Contraseña= "Contraseña" value =''></input> <br> <br> 
+        Confirmar contraseña <br>
+        <input type = 'password' Contraseña= "Contraseña" value =''></input> <br>
+        Identificación <br>
+        <select> 
+            <option value = ''>TI</option>
+            <option value = ''>CC</option>
+            <option value = ''>CE</option>
+        </select>
+
+        <input type = 'text' identificacion= "identificacion" value =''></input> 
+
+        <br> Sexo <br>
+
+        <input type = 'radio' name = "genero" value ='Hombre'></input> Hombre <br>
+
+        <input type = 'radio' name = "genero" value ='Mujer'></input> Mujer <br><br>
+
+        Incluir mi foto <br>
+        
+        <input type = 'file'> </input> <br><br>
+
+        <input type = 'checkbox'> Estudiante.....</input> <br>
+
+
+        <fieldset size = '100px'><legend>Datos personales</legend>
+            Departamento<br>
+            <select> 
+                <option value = '' selected disabled>-Selecciona-</option>
+                <option value = ''>Atlántico</option>
+                <option value = ''>Amazonas</option>
+                <option value = ''>Santander</option>
+            </select> <br><br>
+
+            Fecha de nacimiento <br>
+            <input type = 'text' name= "fecha" value ='' width = '2px' ></input>
+            de 
+            <select> 
+                <option value = '' selected disabled>-Selecciona-</option>
+                <option value = ''>Enero</option>
+                <option value = ''>Febrero</option>
+                <option value = ''>Marzo</option> 
+            </select> 
+            de  
+            <input type = 'text' name= "fecha" value ='' width = '2px' ></input>
+            <br><br>
+            Temas de interés <br>
+            
+            <select name="Listas" size="5">
+
+                <option>Administración de bases de datos</option>
+                
+                <option>Análisis y programación</option>
+                
+                <option>Arquitectura</option>
+                <option>Calidad</option>
+                <option>ERP, CRM, Business intelligence</option>
+                <option>Inteligencia artificial</option>
+                <option>Sistemas digitales</option>
+                <option>OOP</option>
+                <option>Programación en la web</option>
+                <option>Porgramación en python</option>
+                <option>Análisis numérico</option>
+                <option>Modelado estructural</option>
+                <option>Ingeniería de software</option>
+                <option>Machine Learning</option>
+                <option>Big Data</option>
+                
+            </select>
+                
+
+        </fieldset>
+
+        <button>Guardar cambios</button> <button>Borrar los datos introducidos</button>
+
+
+    </form>
+    
+</body>
+</html>
